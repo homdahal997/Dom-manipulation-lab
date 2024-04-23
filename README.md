@@ -26,4 +26,5 @@ To use this program, include it in a HTML file with a `<main>` and `<nav id="top
 
 You can customize the menu bar by modifying the `menuLinks` array. Each object in the array represents a link in the menu bar, with `text` property as the display text and `href` property as the link URL.
 
+## Preview of lab
 ![Preview](./preview.png)
