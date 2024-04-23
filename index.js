@@ -9,3 +9,12 @@ mainEl.innerHTML = "<h1>DOM Manipulation</h1>";
 mainEl.classList.add("flex-ctr");
 
 
+// Part 2: Creating a Menu Bar
+// Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
+const topMenuEl = document.querySelector("nav");
+// Set the height of the topMenuEl element to be 100%.
+topMenuEl.style.height = "100%";
+// Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom property.
+topMenuEl.style.background = "var(--top-menu-bg)";
+// Add a class of flex-around to topMenuEl.
+topMenuEl.classList.add('flex-around');
